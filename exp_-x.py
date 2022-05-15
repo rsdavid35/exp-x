@@ -17,7 +17,7 @@ nums = []
 for k in range(0, n_termos + 1):
     # avalia a função para o valor de k
     num = ((-1)**k) * (x)**k / math.factorial(k)
-    # considera 6 dígitos significativos, com arredondamento, e adiciona a lista de termos.
+    # considera sig dígitos significativos, com arredondamento, e adiciona a lista de termos.
     nums.append(round(num, sigfigs = sig))
 
 # soma todos os termos da lista.
