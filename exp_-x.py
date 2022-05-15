@@ -13,7 +13,7 @@ sig = int(input('digitos significativos: '))
 # lista de termos
 nums = []
 
-# k variando de 0 a 24.
+# k variando de 0 a n_termos.
 for k in range(0, n_termos + 1):
     # avalia a função para o valor de k
     num = ((-1)**k) * (x)**k / math.factorial(k)
