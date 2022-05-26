@@ -1,4 +1,4 @@
-# Aproxima o valor de exp(-x) usando 6 dígitos significativos.
+# Aproxima o valor de exp(-x) usando n dígitos significativos.
 # github: rsdavid35
 
 from sigfig import round
